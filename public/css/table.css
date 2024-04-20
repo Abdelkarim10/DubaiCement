@@ -1,0 +1,79 @@
+
+body {
+  font-family: "Oxygen", "Poppins", sans-serif;
+    color: #333;
+    margin-left:1% ;
+    margin: 6% auto;
+    padding: 0;
+ background-color:  #eaeaea;
+     overflow-y: auto;
+
+
+
+ 
+      background-image: url('/images/lightblue.jpg');  /* Path to the home page background image */
+      background-size: cover;
+      background-repeat: no-repeat; 
+   
+    
+  }
+/* .custom-width {
+    width: 100px;
+} */
+table {
+  /* or position: absolute; */
+  /* position: relative; */
+  /* max-height: 75vh; */
+  max-width: 100% !important;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 16px;
+  border-collapse: collapse;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+    
+}
+#onlyTD{
+  background-color: #f8d07c;
+  border: none;
+  border-radius:7px 7px 0 0;
+}
+.styled-table  th {
+  background-color: #1A5DA1;
+ color:#ffffff ;
+  text-align: left;
+  
+}
+
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+
+}
+
+
+.center-content {
+  margin: 0% 0% 0% 10%;
+  }
+
+.left-variable {
+    float: left;
+  }
+
+  .right-variable {
+    float: right;
+  }
+
+
+  @font-face {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oxygen'), local('Oxygen-Regular'), url(https://fonts.gstatic.com/s/oxygen/v5/LC4u_jU27qpsdszDEgeU_3-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+    unicode-range: U+30-39;
+  }
+  

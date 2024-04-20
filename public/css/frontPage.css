@@ -1,0 +1,12 @@
+
+
+  body {
+    background-image: url('/images/frontPage.jpg');  /* Path to the home page background image */
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+  
+
+h1{
+  color:cornsilk;
+}
